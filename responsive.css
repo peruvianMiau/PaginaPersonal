@@ -1,0 +1,177 @@
+@media (max-width: 480px){
+                            /*==============*/
+                            /*====Header====*/
+                            /*==============*/
+    .arriba{
+        flex-direction: column;
+    }
+    .objetos{
+        flex-direction: column;
+        align-items: center; /*alinear verticalmente*/
+        justify-content: center;
+        padding: 10px;
+    }
+    .nombre{
+        padding-right: 90px;
+        padding-bottom: 10px;
+    }
+    .opciones{
+        padding-right: 90px;
+    }
+    .opciones li a{
+        font-size: 12px;
+    }
+                            /*==============*/
+                            /*====Cuerpo====*/
+                            /*==============*/
+    .medio{
+        padding-top: 20px;
+        flex: 1;
+    }
+    /*==============*/
+    /*====Inicios====*/
+    /*==============*/
+    .inicios{
+        padding-top: 10px;
+        flex-direction: column;
+    }
+    .te{
+        font-size: 50px;
+        padding-right: 60px;
+    }
+
+    /*==============*/
+    /*====Intros====*/
+    /*==============*/
+    .intro{
+        flex-direction: column;
+
+    }
+    .intro img{
+        width: 50%;
+        height: 50%;
+        margin-right: 90px;
+    }
+    .textito{
+        padding-top: 20px;
+    }
+    .textito h2{
+        text-align: center;
+        margin-right: 60px;
+    }
+    .textito p{
+        text-align: center;
+        padding-left: 20px;
+    }
+    /*==============*/
+    /*====gustos====*/
+    /*==============*/
+    .gustos{
+        flex-direction: column;
+        gap: 15%;
+        margin-top: 200px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 250px;
+        margin-right: 80px;
+    }
+    .quegusta{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+    .quegusta h3{
+        font-size: 28px;
+        color:cadetblue;
+        text-decoration: underline;
+        padding: 5px;
+        padding-bottom: 20px;
+    }
+    .quegusta ul{
+        justify-content: center;
+    }
+    .quegusta li{
+        list-style: none;
+        font-size: 18px;
+        line-height: 2;
+        text-align: center;
+    }
+    .quegusta li:hover{
+        background: linear-gradient(to right, rgb(36, 118, 232), rgb(140, 39, 216), rgb(252, 148, 221));
+        border-radius: 50px;
+        text-align: center;
+        color:white;
+        transition: 1s;
+        cursor: none;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .imagenes{
+        gap: 10%;
+    }
+    .imgs1 img{
+        padding: 10px;
+        border-radius: 20px;
+    }
+    .imgs2 img{
+        padding: 10px;
+        border-radius: 20px;
+    }
+    /*==============*/
+    /*====Quehace====*/
+    /*==============*/
+    .quehace{
+        margin-left: 1%;
+        display: flex;
+        gap: 3%;
+        justify-content: center;
+        margin-top: 200px;
+        padding-bottom: 100px;
+    }
+    .linea{
+        width: 2px;
+        height: 230px;
+        background: black;
+    }
+    .hace{
+        display: grid;
+        gap: 15%;
+    }
+    .hace h3{
+        font-size: 20px;
+        color:rgb(39, 0, 97);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: rgba(58, 105, 233, 0.488);
+        text-align: center;
+        border-radius: 100px;
+        padding: 8px;
+    }
+    .hace p{
+        font-size: 18px;
+        color:black;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 50px;
+        margin-right: 50px;
+        line-height: 1.5;
+    }
+    .hace button{
+        background-color: rgb(224, 142, 83);
+        border-radius: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding: 2%;
+        font-size: 16px;
+    }
+    .hace button a{
+        text-decoration: none;
+        color:rgb(39, 0, 97);
+    }
+                            /*==============*/
+                            /*====Footer====*/
+                            /*==============*/
+    .abajo{
+        background: linear-gradient(to right, rgb(36, 118, 232), rgb(140, 39, 216), rgb(252, 148, 221));
+        padding: 20px;
+    }
+    .abajo2{
+        padding-left: 1%;
+    }
+}

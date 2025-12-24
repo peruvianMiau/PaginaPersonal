@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+section{
+    scroll-margin-top: 120px;
+}
                         /*==============*/
                         /*====Header====*/
                         /*==============*/
@@ -38,7 +41,7 @@
 }
 .nombre img{
     width: 50px;
-    height: 50x;
+    height: 50px;
     border-radius: 100%;
     border: 2px black solid;
 }
@@ -59,7 +62,7 @@
 }
 .opciones li a:hover{
     color: rgb(45, 203, 247);
-    transition: 2s;
+    transition: 0.5s;
     text-decoration: underline;
     font-weight: 700;
     font-size: 20px;
@@ -79,7 +82,7 @@
 /*====Inicios====*/
 /*==============*/
 .inicios{
-    margin-top: 60px;
+    margin-top: 30px;
     display: flex;
     gap: 25%;
     justify-content: center;
@@ -89,8 +92,7 @@
 }
 .inicios img{
     width: 510px;
-    height: 510px;
-}
+    height: 510px;}
 .te{
     font-size: 100px;
     animation: col 0.9s infinite;
